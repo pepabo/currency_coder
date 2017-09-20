@@ -11,6 +11,7 @@ class CurrencyCoderTest < Minitest::Test
     currency_map = {
       "osamu"    => "OSM",
       "mayoto"   => "MYT",
+      "kurotaki" => "KRT",
       "putchom"  => "PTM",
       "antipop"  => "ATP",
       "jitsuzon" => "JZN"
