@@ -9,9 +9,9 @@ Gem::Specification.new do |spec|
   spec.authors       = ["Kentaro Kuribayashi"]
   spec.email         = ["kentarok@gmail.com"]
 
-  spec.summary       = %q{TODO: Write a short summary, because Rubygems requires one.}
-  spec.description   = %q{TODO: Write a longer description or delete this line.}
-  spec.homepage      = "TODO: Put your gem's website or public repo URL here."
+  spec.summary       = %q{Convert Strings to Currency-like code.}
+  spec.description   = %q{Convert Strings to Currency-like code.}
+  spec.homepage      = "https://github.com/pepabo/currency_coder"
   spec.license       = "MIT"
 
   # Prevent pushing this gem to RubyGems.org. To allow pushes either set the 'allowed_push_host'

@@ -5,7 +5,19 @@ class CurrencyCoderTest < Minitest::Test
     refute_nil ::CurrencyCoder::VERSION
   end
 
-  def test_it_does_something_useful
-    assert false
+  def test_as_currency_code
+    cc = CurrencyCoder.new
+
+    currency_map = {
+      "osamu"    => "OSM",
+      "mayoto"   => "MYT",
+      "putchom"  => "PTM",
+      "antipop"  => "ATP",
+      "jitsuzon" => "JZN"
+    }
+
+    currency_map.each do |name, code|
+      assert_equal code, cc.as_currency_code(name)
+    end
   end
 end
