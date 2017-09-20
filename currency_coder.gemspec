@@ -9,8 +9,8 @@ Gem::Specification.new do |spec|
   spec.authors       = ["Kentaro Kuribayashi"]
   spec.email         = ["kentarok@gmail.com"]
 
-  spec.summary       = %q{Convert Strings to Currency-like code.}
-  spec.description   = %q{Convert Strings to Currency-like code.}
+  spec.summary       = %q{Convert Strings to Currency-like Code.}
+  spec.description   = %q{Convert Strings to Currency-like Code.}
   spec.homepage      = "https://github.com/pepabo/currency_coder"
   spec.license       = "MIT"
 
