@@ -45,7 +45,7 @@ To install this gem onto your local machine, run `bundle exec rake install`. To 
 
 ## Contributing
 
-Bug reports and pull requests are welcome on GitHub at https://github.com/[USERNAME]/currency_coder.
+Bug reports and pull requests are welcome on GitHub at https://github.com/pepabo/currency_coder.
 
 ## Author
 
